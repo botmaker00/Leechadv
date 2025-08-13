@@ -67,17 +67,17 @@ download_dict = {}
 rss_dict = {}
 
 # Created By ThiruXD 
-AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID', ''))
-METADATA = environ.get('METADATA', '')
+AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID', '-1002578673558'))
+METADATA = environ.get('METADATA', '@Animeworld_zone')
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6930996393:AAF9LfVSQslWRDKvBA2_W3uTmDKFEcWphHE')
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
 
 bot_id = BOT_TOKEN.split(':', 1)[0]
 
-DATABASE_URL = environ.get('DATABASE_URL', '')
+DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://leechbot2:leechbot2@leechbot2.6tvagnq.mongodb.net/?retryWrites=true&w=majority&appName=leechbot2')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = ''
 
