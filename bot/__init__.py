@@ -390,17 +390,17 @@ EQUAL_SPLITS = EQUAL_SPLITS.lower() == 'true'
 MEDIA_GROUP = environ.get('MEDIA_GROUP', '')
 MEDIA_GROUP = MEDIA_GROUP.lower() == 'true'
 
-BASE_URL_PORT = environ.get('BASE_URL_PORT', '')
+BASE_URL_PORT = environ.get('BASE_URL_PORT', '7894')
 BASE_URL_PORT = 80 if len(BASE_URL_PORT) == 0 else int(BASE_URL_PORT)
 
-BASE_URL = environ.get('BASE_URL', '').rstrip("/")
+BASE_URL = environ.get('BASE_URL', 'https://leecbotmaster3-2d63bb28714e.herokuapp.com/').rstrip("/")
 if len(BASE_URL) == 0:
     log_warning('BASE_URL not provided!')
     BASE_URL = ''
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://leecbotmaster3-2d63bb28714e.herokuapp.com/')
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/ThiruXD/Thiru-ML'
+    UPSTREAM_REPO = 'https://github.com/botmaker00/LeechadvL'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
