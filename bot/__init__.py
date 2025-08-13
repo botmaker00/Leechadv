@@ -67,7 +67,6 @@ download_dict = {}
 rss_dict = {}
 
 
-BOT_TOKEN=6930996393:AAF9LfVSQslWRDKvBA2_W3uTmDKFEcWphHE
 
 # Created By ThiruXD 
 AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID', '-1002578673558'))
@@ -75,6 +74,7 @@ METADATA = environ.get('METADATA', '@Animeworld_zone')
 
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 if len(BOT_TOKEN) == 0:
+    BOT_TOKEN + '6930996393:AAF9LfVSQslWRDKvBA2_W3uTmDKFEcWphHE'
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
 
