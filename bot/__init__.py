@@ -66,6 +66,9 @@ status_reply_dict = {}
 download_dict = {}
 rss_dict = {}
 
+
+BOT_TOKEN=6930996393:AAF9LfVSQslWRDKvBA2_W3uTmDKFEcWphHE
+
 # Created By ThiruXD 
 AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID', '-1002578673558'))
 METADATA = environ.get('METADATA', '@Animeworld_zone')
