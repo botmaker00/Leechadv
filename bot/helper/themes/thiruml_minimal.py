@@ -2,21 +2,21 @@
 class THIRUMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '🤖 Thiru Support'
-    ST_BN1_URL = 'https://telegram.me/ThiruSupport'
-    ST_BN2_NAME = 'Thiru Empire 🔥'
-    ST_BN2_URL = 'https://telegram.me/ThiruEmpire'
-    ST_MSG = '''<b><i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>\n
-Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own Thiru-ML Mirror-Leech bot</i>'''
+    ST_BN1_NAME = "Owner"
+    ST_BN1_URL = "https://t.me/V_Sbotmaker"
+    ST_BN2_NAME = "Updates"
+    ST_BN2_URL = "https://t.me/Animeworld_zone"
+    ST_MSG = """<b><i>ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</i></b>
+<b><i>ᴛʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</i></b>"""
+    ST_BOTPM = """<b><i>ɴᴏᴡ, ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. sᴛᴀʀᴛ ᴜsɪɴɢ ...</i></b>"""
+    ST_UNAUTH = """<b><i>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀ! ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ WZML-X ᴍɪʀʀᴏʀ-ʟᴇᴇᴄʜ ʙᴏᴛ</i></b>"""
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
     TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
-<b>Temp Token:</b> <code>{token}</code>
-<b>Validity:</b> {validity}'''
+<b><i>Tᴇᴍᴘ Tᴏᴋᴇɴ:</i></b> <code>{token}</code>
+<b><i>Vᴀʟɪᴅɪᴛʏ:</i></b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
     ACTIVATED = '✅️ Activated ✅'
@@ -41,65 +41,65 @@ Type {help_command} to get a list of available commands</b>'''
 
     # async def stats(client, message):
     BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-┖ <b>Bot Uptime :</b> {bot_uptime}
+┖ <b><i>⏰ Bᴏᴛ Uᴘᴛɪᴍᴇ :</i></b> {bot_uptime}
 
-┎ <b><i>RAM ( MEMORY ) :</i></b>
+┎ <b><i>🧠 RAM ( MEMORY ) :</i></b>
 ┃ {ram_bar} {ram}%
-┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
+┖ <b><i>U :</i></b> {ram_u} | <b><i>💾 F :</i></b> {ram_f} | <b><i>T :</i></b> {ram_t}
 
 ┎ <b><i>SWAP MEMORY :</i></b>
 ┃ {swap_bar} {swap}%
-┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
+┖ <b><i>U :</i></b> {swap_u} | <b><i>💾 F :</i></b> {swap_f} | <b><i>T :</i></b> {swap_t}
 
-┎ <b><i>DISK :</i></b>
+┎ <b><i>💾 DISK :</i></b>
 ┃ {disk_bar} {disk}%
-┃ <b>Total Disk Read :</b> {disk_read}
-┃ <b>Total Disk Write :</b> {disk_write}
-┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+┃ <b><i>📖 Tᴏᴛᴀʟ Dɪsᴋ Rᴇᴀᴅ :</i></b> {disk_read}
+┃ <b><i>📝 Tᴏᴛᴀʟ Dɪsᴋ Wʀɪᴛᴇ :</i></b> {disk_write}
+┖ <b><i>U :</i></b> {disk_u} | <b><i>💾 F :</i></b> {disk_f} | <b><i>T :</i></b> {disk_t}
     
     '''
     SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
-┠ <b>OS Uptime :</b> {os_uptime}
-┠ <b>OS Version :</b> {os_version}
-┖ <b>OS Arch :</b> {os_arch}
+┠ <b><i>⏰ OS Uᴘᴛɪᴍᴇ :</i></b> {os_uptime}
+┠ <b><i>🖥 OS Vᴇʀsɪᴏɴ :</i></b> {os_version}
+┖ <b><i>🏛 OS Aʀᴄʜ :</i></b> {os_arch}
 
 ⌬ <b><i>NETWORK STATS :</i></b>
-┠ <b>Upload Data:</b> {up_data}
-┠ <b>Download Data:</b> {dl_data}
-┠ <b>Pkts Sent:</b> {pkt_sent}k
-┠ <b>Pkts Received:</b> {pkt_recv}k
-┖ <b>Total I/O Data:</b> {tl_data}
+┠ <b><i>📤 Uᴘʟᴏᴀᴅ Dᴀᴛᴀ:</i></b> {up_data}
+┠ <b><i>📥 Dᴏᴡɴʟᴏᴀᴅ Dᴀᴛᴀ:</i></b> {dl_data}
+┠ <b><i>📦 Pᴋᴛs Sᴇɴᴛ:</i></b> {pkt_sent}k
+┠ <b><i>📥 Pᴋᴛs Rᴇᴄᴇɪᴠᴇᴅ:</i></b> {pkt_recv}k
+┖ <b><i>📊 Tᴏᴛᴀʟ I/O Dᴀᴛᴀ:</i></b> {tl_data}
 
-┎ <b>CPU :</b>
+┎ <b><i>💻 CPU :</i></b>
 ┃ {cpu_bar} {cpu}%
-┠ <b>CPU Frequency :</b> {cpu_freq}
-┠ <b>System Avg Load :</b> {sys_load}
-┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┠ <b><i>🕒 CPU Fʀᴇǫᴜᴇɴᴄʏ :</i></b> {cpu_freq}
+┠ <b><i>⚖️ Sʏsᴛᴇᴍ Aᴠɢ Lᴏᴀᴅ :</i></b> {sys_load}
+┠ <b><i>🔢 P-Cᴏʀᴇ(s) :</i></b> {p_core} | <b><i>🔢 V-Cᴏʀᴇ(s) :</i></b> {v_core}
+┠ <b><i>🔢 Tᴏᴛᴀʟ Cᴏʀᴇ(s) :</i></b> {total_core}
+┖ <b><i>🔢 Usᴀʙʟᴇ CPU(s) :</i></b> {cpu_use}
     '''
     REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-┠ <b>Bot Updated :</b> {last_commit}
-┠ <b>Current Version :</b> {bot_version}
-┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
+┠ <b><i>⏰ Bᴏᴛ Uᴘᴅᴀᴛᴇᴅ :</i></b> {last_commit}
+┠ <b><i>🔖 Cᴜʀʀᴇɴᴛ Vᴇʀsɪᴏɴ :</i></b> {bot_version}
+┠ <b><i>🔖 Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ :</i></b> {lat_version}
+┖ <b><i>📝 Lᴀsᴛ CʜᴀɴɢᴇLᴏɢ :</i></b> {commit_details}
 
-⌬ <b>REMARKS :</b> <code>{remarks}</code>
+⌬ <b><i>REMARKS :</i></b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
-┠ <b>Direct Limit :</b> {DL} GB
-┠ <b>Torrent Limit :</b> {TL} GB
-┠ <b>GDrive Limit :</b> {GL} GB
-┠ <b>YT-DLP Limit :</b> {YL} GB
-┠ <b>Playlist Limit :</b> {PL}
-┠ <b>Mega Limit :</b> {ML} GB
-┠ <b>Clone Limit :</b> {CL} GB
-┖ <b>Leech Limit :</b> {LL} GB
+┠ <b><i>📥 Dɪʀᴇᴄᴛ Lɪᴍɪᴛ :</i></b> {DL} GB
+┠ <b><i>🌊 Tᴏʀʀᴇɴᴛ Lɪᴍɪᴛ :</i></b> {TL} GB
+┠ <b><i>☁️ GDʀɪᴠᴇ Lɪᴍɪᴛ :</i></b> {GL} GB
+┠ <b><i>🎥 YT-DLP Lɪᴍɪᴛ :</i></b> {YL} GB
+┠ <b><i>📜 Pʟᴀʏʟɪsᴛ Lɪᴍɪᴛ :</i></b> {PL}
+┠ <b><i>📤 Mᴇɢᴀ Lɪᴍɪᴛ :</i></b> {ML} GB
+┠ <b><i>♻️ Cʟᴏɴᴇ Lɪᴍɪᴛ :</i></b> {CL} GB
+┖ <b><i>📦 Lᴇᴇᴄʜ Lɪᴍɪᴛ :</i></b> {LL} GB
 
-┎ <b>Token Validity :</b> {TV}
-┠ <b>User Time Limit :</b> {UTI} / task
-┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┎ <b><i>🔑 Tᴏᴋᴇɴ Vᴀʟɪᴅɪᴛʏ :</i></b> {TV}
+┠ <b><i>⏱️ Usᴇʀ Tɪᴍᴇ Lɪᴍɪᴛ :</i></b> {UTI} / task
+┠ <b><i>🔢 Usᴇʀ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</i></b> {UT}
+┖ <b><i>🔢 Bᴏᴛ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</i></b> {BT}
     '''
     # ---------------------
 
@@ -109,10 +109,10 @@ Type {help_command} to get a list of available commands</b>'''
 
     # async def restart_notification(): ---> __main__.py
     RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
-┠ <b>Date:</b> {date}
-┠ <b>Time:</b> {time}
-┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
+┠ <b><i>📅 Dᴀᴛᴇ:</i></b> {date}
+┠ <b><i>⏰ Tɪᴍᴇ:</i></b> {time}
+┠ <b><i>🌐 TɪᴍᴇZᴏɴᴇ:</i></b> {timz}
+┖ <b><i>🔖 Vᴇʀsɪᴏɴ:</i></b> {version}'''
     RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
     # ---------------------
 
@@ -123,38 +123,38 @@ Type {help_command} to get a list of available commands</b>'''
 
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b><i>Task Started</i></b>
-┠ <b>Mode:</b> {Mode}
-┖ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+┠ <b><i>📥 Mᴏᴅᴇ:</i></b> {Mode}
+┖ <b><i>👤 Bʏ:</i></b> {Tag}\n\n"""
+    LINKS_SOURCE = """➲ <b><i>🔗 Sᴏᴜʀᴄᴇ:</i></b>
+┖ <b><i>📅 Aᴅᴅᴇᴅ Oɴ:</i></b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b><i>🔗 Lɪɴᴋ:</i></b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b><i>👤 Usᴇʀ :</i></b> {mention} ( #ID{uid} )\n┖ <b><i>🔗 Sᴏᴜʀᴄᴇ :</i></b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '┠ <b><i>📏 Sɪᴢᴇ: </i></b>{Size}\n'
+    ELAPSE =                '┠ <b><i>⏳ Eʟᴀᴘsᴇᴅ: </i></b>{Time}\n'
+    MODE =                  '┠ <b><i>📥 Mᴏᴅᴇ: </i></b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '┠ <b><i>📄 Tᴏᴛᴀʟ Fɪʟᴇs: </i></b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b><i>❌ Cᴏʀʀᴜᴘᴛᴇᴅ Fɪʟᴇs: </i></b>{Corrupt}\n'
+    L_CC =                  '┖ <b><i>👤 Bʏ: </i></b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    M_TYPE =                '┠ <b><i>📋 Tʏᴘᴇ: </i></b>{Mimetype}\n'
+    M_SUBFOLD =             '┠ <b><i>🗂 SᴜʙFᴏʟᴅᴇʀs: </i></b>{Folder}\n'
+    TOTAL_FILES =           '┠ <b><i>📄 Fɪʟᴇs: </i></b>{Files}\n'
+    RCPATH =                '┠ <b><i>📂 Pᴀᴛʜ: </i></b><code>{RCpath}</code>\n'
+    M_CC =                  '┖ <b><i>👤 Bʏ: </i></b>{Tag}\n\n'
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
@@ -177,48 +177,48 @@ Type {help_command} to get a list of available commands</b>'''
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    PROCESSED =         '\n┠ <b><i>🔄 Pʀᴏᴄᴇssᴇᴅ:</i></b> {Processed}'
+    STATUS =            '\n┠ <b><i>📶 Sᴛᴀᴛᴜs:</i></b> <a href="{Url}">{Status}</a>'
+    ETA =                                                ' | <b><i>⏱️ ETA:</i></b> {Eta}'
+    SPEED =             '\n┠ <b><i>⚡ Sᴘᴇᴇᴅ:</i></b> {Speed}'
+    ELAPSED =                                     ' | <b><i>⏳ Eʟᴀᴘsᴇᴅ:</i></b> {Elapsed}'
+    ENGINE =            '\n┠ <b><i>⚙️ Eɴɢɪɴᴇ:</i></b> {Engine}'
+    STA_MODE =          '\n┠ <b><i>📥 Mᴏᴅᴇ:</i></b> {Mode}'
+    SEEDERS =           '\n┠ <b><i>🌱 Sᴇᴇᴅᴇʀs:</i></b> {Seeders} | '
+    LEECHERS =                                           '<b><i>📥 Lᴇᴇᴄʜᴇʀs:</i></b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_SIZE =      '\n┠ <b><i>📏 Sɪᴢᴇ: </i></b>{Size}'
+    SEED_SPEED =     '\n┠ <b><i>⚡ Sᴘᴇᴇᴅ: </i></b> {Speed} | '
+    UPLOADED =                                     '<b><i>⬆️ Uᴘʟᴏᴀᴅᴇᴅ: </i></b> {Upload}'
+    RATIO =          '\n┠ <b><i>📊 Rᴀᴛɪᴏ: </i></b> {Ratio} | '
+    TIME =                                         '<b><i>⏱️ Tɪᴍᴇ: </i></b> {Time}'
+    SEED_ENGINE =    '\n┠ <b><i>⚙️ Eɴɢɪɴᴇ:</i></b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b><i>📏 Sɪᴢᴇ: </i></b>{Size}'
+    NON_ENGINE =     '\n┠ <b><i>⚙️ Eɴɢɪɴᴇ:</i></b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
+    USER =              '\n┠ <b><i>👤 Usᴇʀ:</i></b> <code>{User}</code> | '
+    ID =                                                        '<b><i>🆔 ID:</i></b> <code>{Id}</code>'
+    BTSEL =          '\n┠ <b><i>🔧 Sᴇʟᴇᴄᴛ:</i></b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
-    FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
-    uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    TASKS =  '┠ <b><i>📋 Tᴀsᴋs:</i></b> {Tasks}\n'
+    BOT_TASKS = '┠ <b><i>📋 Tᴀsᴋs:</i></b> {Tasks}/{Ttask} | <b><i>✅ AVL:</i></b> {Free}\n'
+    Cpu = '┠ <b><i>💻 CPU:</i></b> {cpu}% | '
+    FREE =                      '<b><i>💾 Fʀᴇᴇ:</i></b> {free} [{free_p}%]'
+    Ram = '\n┠ <b><i>🧠 RAM:</i></b> {ram}% | '
+    uptime =                     '<b><i>⏰ Uᴘᴛɪᴍᴇ:</i></b> {uptime}'
+    DL = '\n┖ <b><i>📥 DL:</i></b> {DL}/s | '
+    UL =                        '<b><i>📤 UL:</i></b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
-    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
+    REFRESH = '📄 Pᴀɢᴇs\n{Page}'
     NEXT = '⫸'
     # ---------------------
 
@@ -229,11 +229,11 @@ Type {help_command} to get a list of available commands</b>'''
     # async def countNode(_, message): ----> gd_count.py
     COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '┠ <b><i>📏 Sɪᴢᴇ: </i></b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠ <b><i>📋 Tʏᴘᴇ: </i></b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠ <b><i>🗂 SᴜʙFᴏʟᴅᴇʀs: </i></b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠ <b><i>📄 Fɪʟᴇs: </i></b>{COUNT_FILE}\n'
+    COUNT_CC =   '┖ <b><i>👤 Bʏ: </i></b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
@@ -246,53 +246,53 @@ Type {help_command} to get a list of available commands</b>'''
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
     
 ⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+┠ <b><i>💻 CPU:</i></b> {cpu}% | <b><i>💾 Fʀᴇᴇ:</i></b> {free} [{free_p}%]
+┖ <b><i>🧠 RAM:</i></b> {ram} | <b><i>⏰ Uᴘᴛɪᴍᴇ:</i></b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
     USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┎<b><i>👤 Nᴀᴍᴇ :</i></b> {NAME} ( <code>{ID}</code> )
+┠<b><i>📛 Usᴇʀɴᴀᴍᴇ :</i></b> {USERNAME}
+┠<b><i>🌐 Tᴇʟᴇɢʀᴀᴍ DC :</i></b> {DC}
+┖<b><i>🗣 Lᴀɴɢᴜᴀɢᴇ :</i></b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
 
     UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> User Session :</b> <code>{USESS}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b><i>🎥 YT-DLP Oᴘᴛɪᴏɴs :</i></b> <b><code>{YT}</code></b>
+┠<b><i>📅 Dᴀɪʟʏ Tᴀsᴋs :</i></b> <code>{DT}</code> per day
+┠<b><i>🤖 Lᴀsᴛ Bᴏᴛ Usᴇᴅ :</i></b> <code>{LAST_USED}</code>
+┠<b><i>📱 Usᴇʀ Sᴇssɪᴏɴ :</i></b> <code>{USESS}</code>
+┠<b><i>📃 MᴇᴅɪᴀIɴғᴏ Mᴏᴅᴇ :</i></b> <code>{MEDIAINFO}</code>
+┠<b><i>💾 Sᴀᴠᴇ Mᴏᴅᴇ :</i></b> <code>{SAVE_MODE}</code>
+┖<b><i>📨 Usᴇʀ Bᴏᴛ PM :</i></b> <code>{BOT_PM}</code>'''
 
     MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┎<b><i>♻️ RCʟᴏɴᴇ Cᴏɴғɪɢ :</i></b> <i>{RCLONE}</i>
+┠<b><i>📛 Mɪʀʀᴏʀ Pʀᴇғɪx :</i></b> <code>{MPREFIX}</code>
+┠<b><i>📛 Mɪʀʀᴏʀ Sᴜғғɪx :</i></b> <code>{MSUFFIX}</code>
+┠<b><i>🔄 Mɪʀʀᴏʀ Rᴇᴍɴᴀᴍᴇ :</i></b> <code>{MREMNAME}</code>
+┠<b><i>🌐 DDL Sᴇʀᴠᴇʀ(s) :</i></b> <i>{DDL_SERVER}</i>
+┠<b><i>📂 Usᴇʀ TD Mᴏᴅᴇ :</i></b> <i>{TMODE}</i>
+┠<b><i>📂 Tᴏᴛᴀʟ Usᴇʀ TD(s) :</i></b> <i>{USERTD}</i>
+┖<b><i>📅 Dᴀɪʟʏ Mɪʀʀᴏʀ :</i></b> <code>{DM}</code> per day'''
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
-┎<b> Daily Leech : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┎<b><i>📅 Dᴀɪʟʏ Lᴇᴇᴄʜ : </i></b><code>{DL}</code> per day
+┠<b><i>📋 Lᴇᴇᴄʜ Tʏᴘᴇ :</i></b> <i>{LTYPE}</i>
+┠<b><i>🖼 Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ :</i></b> <i>{THUMB}</i>
+┠<b><i>📏 Lᴇᴇᴄʜ Sᴘʟɪᴛ Sɪᴢᴇ :</i></b> <code>{SPLIT_SIZE}</code>
+┠<b><i>⚖️ Eǫᴜᴀʟ Sᴘʟɪᴛs :</i></b> <i>{EQUAL_SPLIT}</i>
+┠<b><i>📦 Mᴇᴅɪᴀ Gʀᴏᴜᴘ :</i></b> <i>{MEDIA_GROUP}</i>
+┠<b><i>📜 Lᴇᴇᴄʜ Cᴀᴘᴛɪᴏɴ :</i></b> <code>{LCAPTION}</code>
+┠<b><i>📛 Lᴇᴇᴄʜ Pʀᴇғɪx :</i></b> <code>{LPREFIX}</code>
+┠<b><i>📛 Lᴇᴇᴄʜ Sᴜғғɪx :</i></b> <code>{LSUFFIX}</code>
+┠<b><i>🗑 Lᴇᴇᴄʜ Dᴜᴍᴘs :</i></b> <code>{LDUMP}</code>
+┖<b><i>🔄 Lᴇᴇᴄʜ Rᴇᴍɴᴀᴍᴇ :</i></b> <code>{LREMNAME}</code>'''
