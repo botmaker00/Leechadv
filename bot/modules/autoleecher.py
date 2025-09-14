@@ -159,7 +159,7 @@ async def clone_ThiruEmpire(bot, message):
                 except:
                     lmeta = "Not Available ❌"
                     
-                await message.reply_text(f"Document updated successfully with custom _id: <code>{bot_id}</code> \n\n Source : <code>{user_id}</code>\n Media Type : <code>{as_doc}</code> \n Captian : <code>{captian}</code> \n Thumnail : <code>{thumb}</code> \n Prefix : <code>{lprefix}</code> \n Suffix : <code>{lsuffix}</code> \n Rename : <code>{lremname}</code> \n Leech Dumb : <code>{ldump}</code> \n Leech MetaData : <code>{lmeta}</code> \n\nSay Jai @ThiruEmpire")
+                await message.reply_text(f"Document updated successfully with custom _id: <code>{bot_id}</code> \n\n Source : <code>{user_id}</code>\n Media Type : <code>{as_doc}</code> \n Captian : <code>{captian}</code> \n Thumnail : <code>{thumb}</code> \n Prefix : <code>{lprefix}</code> \n Suffix : <code>{lsuffix}</code> \n Rename : <code>{lremname}</code> \n Leech Dumb : <code>{ldump}</code> \n Leech MetaData : <code>{lmeta}</code> \n\n")
             else:
                 collection.insert_one(document_to_clone)
                 try: 
