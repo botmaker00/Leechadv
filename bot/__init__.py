@@ -69,7 +69,7 @@ rss_dict = {}
 
 
 # Created By ThiruXD 
-AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID'))
+AUTO_LEECH_GRP_ID = int(environ.get('AUTO_LEECH_GRP_ID',0))
 METADATA = environ.get('METADATA',)
 
 BOT_TOKEN = environ.get('BOT_TOKEN',)
